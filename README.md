@@ -4,8 +4,13 @@ We are serving the "Poker Steem" at Steamit.
 <https://steemit.com/@pokersteem>
 
 We can show posting and result sources for pair logic.
+
 A constant source containing a posting key can not open.
 
+We just service pokersteem using the "linux crontab".
+
+
+### pokersteemPostingResult.js
 ```
 var steem = require('steem');
 var pokerevaluator = require('poker-evaluator');
@@ -291,4 +296,4 @@ function allDone(notAborted, arr) {
 }
 ```
 
-If you have any further questions, please comment on Steamit.
+If you have any further questions, please comment on Steemit.
